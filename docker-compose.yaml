@@ -17,7 +17,6 @@ services:
       - ./db/data:/var/lib/mysql
       - ./db/config:/etc/mysql/conf.d
     environment:
-      - MYSQL_DATABASE=example
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db-password
       - TZ=Asia/Shanghai
       - LANG=C.UTF-8

@@ -39,6 +39,12 @@ The compose file defines an application with three services `frontend`, `backend
 ```
 $ docker-compose up -d
 ```
+- todo the backend service has not been wrapped with docker. to start with
+```
+$ cd backend
+$ npm install 
+$ ts-node src/app.ts 
+```
 
 
 ## Expected result
